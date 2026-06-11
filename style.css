@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #E4E4E4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.nav-bar{
+    position: fixed;                    
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  
+    
+}
+.studio{
+    display: flex;
+    width: 370px;
+    font-family: 'GTPressuraMono';
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+.namma{
+    font-family: 'GTPressuraMono';
+    margin-left: 20px;
+}
+.menu{
+    font-family: 'GTPressuraMono';
+    width: 500px;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    margin-right: 20px;
+    margin-left: 600px;
+    justify-content: space-between;
+
+}
+.think{
+    line-height: 180px;
+    width: 60%;
+    font-size: 200px;
+    display: flex;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 150px;
+    font-weight: 900;
+
+}
+/* .overlay{
+    height: 100vh;
+    width: 100vw;
+    top:-100%;
+    position: fixed;
+
+} */
+.form{
+    
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    margin-left: 5px;
+     font-family: 'GTPressuraMono';
+     margin-top: 40px;
+
+
+
+}
+.work{
+    height: 300px;
+    width:700px;
+    margin-left: 5px;
+    font-size: 190px;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 10px;
+    line-height: 160px;
+    font-weight: 500;
+    
+   
+    
+}
+.in{
+    display: flex;
+    gap: 10px;
+    height: 80px;
+    
+    
+}
+.one{
+    height: 40px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 7px;
+    background-color: #C8C8C8;
+    color: #E4E4E4;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+}
+input{
+    border: none;
+    outline: none;
+    background-color: #E4E4E4;
+    width: 100%;
+   font-family: 'Bebas Neue', sans-serif;
+    font-weight: 900;
+    
+}
+::placeholder{
+    color:#C8C8C8;
+    width: 100%;
+    font-size: 60px;
+  
+}
+.message, .email, .phone ,.interest, .name{
+    margin-left: 10px;
+    margin-right: 40px;
+   font-size: 15px;
+   font-weight: lighter;
+   font-family: 'GTPressuraMono';
+}
+.overlay{
+    top: -100%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    transition: all 0.6s ease;
+    z-index: 999;
+    box-sizing: border-box; 
+    
+}
+.active{
+    background-color: #E4E4E4; ;
+    top: 0%;
+    position: fixed;
+    transition: all 0.6s ease;
+}
+.together{
+    margin-left: 0px;
+    position: absolute;
+}
+.leo{
+    position: relative;
+    object-fit: cover;
+    height:120px;
+    width: 190px;
+    opacity: 0;
+    transform: translateX(-50px);
+    border-radius: 10px;}
+    
+.leo2{
+    display: flex;
+    
+}
+.active2{
+    position:relative; 
+  transform: translateX(30px);
+  transition: all 1s ease;
+}
+.active3{
+     opacity: 1;
+     transform: translateX(0);
+     transition: all 1s ease;
+
+}
+.close{
+    height: 30px;
+    width: 5%;
+    position: absolute;
+    right: 6px;
+    top: 20px;
+    font-size: 16px;
+    font-family: 'GTPressuraMono';
+    font-weight: lighter;
+
+}
+.overlay-menu{
+    
+    /* padding-top: 140px;
+    padding-left: 10px; */
+    z-index: 998;
+    height: 100%;
+    width: 100%;
+    top: -100%;
+    position: fixed;
+    display: flex;
+    gap: 180px;
+    background-color: #E4E4E4;
+    transition: top 0.6s ease;
+
+}
+.options{
+    display: flex;
+    font-size: 140px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 600;
+    gap: 20px;
+}
+.otherthree{
+    line-height: 130px;
+    margin-top: 140px;
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 600;
+    
+}
+.four-options{
+   line-height: 130px;
+    
+}
+.activate{
+    top: 0%;
+    padding-top: 140px;
+    padding-left: 10px;
+}
+.overlay-menu img {
+    position: absolute;
+    transition: all 0.5s ease;
+}
+.overlay-menu p{
+    transition: all 0.5s ease;
+}
