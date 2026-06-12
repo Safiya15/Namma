@@ -6,17 +6,22 @@ html,body{
     height: 100%;
     width: 100%;
     background-color: #E4E4E4;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+   
    
 }
 .nav-bar{
+    top: 0;
+  
     position: fixed;                    
     height: 80px;
     width: 100%;
     display: flex;
     align-items: center;
+    font-family: 'GTPressuraMono';
+    
   
     
 }
@@ -43,7 +48,13 @@ html,body{
     justify-content: space-between;
 
 }
+.thought{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .think{
+    
     line-height: 180px;
     width: 60%;
     font-size: 200px;
@@ -52,6 +63,9 @@ html,body{
     font-family: 'Bebas Neue', sans-serif;
     margin-top: 150px;
     font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    
 
 }
 /* .overlay{
@@ -229,4 +243,42 @@ input{
 }
 .overlay-menu p{
     transition: all 0.5s ease;
+}
+.video{
+    position: relative;
+    margin-top: 130px;
+    height: 100%;
+    width: 100%;
+    align-self: stretch;
+}
+.playground {
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E4E4E4;
+}
+
+.matters {
+    padding-left: 60px;
+    margin-top: 120px;
+    text-align: center;
+    width: 70%;
+  
+}
+
+.matters p:first-child {
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+    font-family: 'GTPressuraMono';
+}
+
+.matters p:last-child {
+    font-size: 100px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 900;
+    line-height: 100px;
 }

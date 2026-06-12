@@ -9,12 +9,19 @@ let together=document.querySelector(".together");
 let leo=document.querySelector(".leo");
 let overlaymenu=document.querySelector(".overlay-menu");
 let allOptions = document.querySelectorAll(".options");
+let video=document.querySelector(".video");
+let playground=document.querySelector(".playground");
+let matters=document.querySelector(".matters")
 mode.addEventListener("click",()=>{
     if(mode.innerText=="DARK MODE"){
     body.style.backgroundColor="black";
     craft.style.color="white";
     nav.style.color="white";
     mode.innerText="LIGHT MODE"
+    video.style.backgroundColor="black";
+    playground.style.backgroundColor="black"
+    matters.style.color="white"
+
     
 allOptions.forEach((options) => {
         overlaymenu.style.backgroundColor="black";
@@ -29,6 +36,10 @@ else{
     craft.style.color="black";
     nav.style.color="black";
     mode.innerText="DARK MODE"
+    video.style.backgroundColor=" #E4E4E4";
+    playground.style.backgroundColor="#E4E4E4"
+    matters.style.color="black"
+
     allOptions.forEach((options) =>{
         overlaymenu.style.backgroundColor="white";
           let text = options.querySelector("p");
