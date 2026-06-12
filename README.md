@@ -1,6 +1,6 @@
 Studio Namma Clone
 
-A front-end clone of studionamma.com — a professional branding and design agency website.
+A front-end clone of https://studionamma.com/— a professional branding and design agency website.
 
 Live Demo
 
